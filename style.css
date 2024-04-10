@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('coin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #bc7e7e; */
+}
+
+.container{
+   background: #ffff;
+   padding: 2rem;
+   border-radius: 1rem;
+   min-height: 40vh;
+   width: 45vh;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form input,select,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.75rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.55rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.65rem;
+    border: 1px solid lightgray;
+    width: 6rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+form button {
+    height: 3rem;
+    font-size: 1.15rem;
+    border: 1px solid lightgray;
+    background-color: #af4d98;
+    color: #fff;
+    cursor: pointer;
+}
+
